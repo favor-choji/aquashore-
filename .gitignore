@@ -27,3 +27,4 @@ pnpm-debug.log*
 .netlify
 
 setup-github.sh
+setup-github_general.sh
