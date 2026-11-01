@@ -1,0 +1,19 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+---
+<Layout title="Success | Aquashore Marine">
+  <Header />
+  <section class="pt-40 pb-24 min-h-screen flex items-center justify-center bg-[#F4F7FB]">
+    <div class="max-w-lg mx-auto px-6 text-center bg-[#EBF2FA] p-12 rounded-2xl shadow-xl border border-[#D0E4F5]">
+      <div class="w-20 h-20 bg-[#FCDD00]/20 border border-[#FCDD00] rounded-full flex items-center justify-center mx-auto mb-6">
+        <span class="text-4xl text-[#FCDD00] font-bold">✓</span>
+      </div>
+      <h1 class="text-3xl font-extrabold text-[#00043A] mb-4 font-[Montserrat]">Booking Received!</h1>
+      <p class="text-[#407BA7] mb-8 font-medium">Thank you. Our dispatch team will contact you within 24 hours.</p>
+      <a href="/" class="inline-block bg-[#FF002B] text-white px-8 py-3 rounded-lg font-bold text-sm tracking-wider uppercase hover:bg-[#C00021] transition-all">Return Home</a>
+    </div>
+  </section>
+  <Footer />
+</Layout>

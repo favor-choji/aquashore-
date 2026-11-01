@@ -1,0 +1,69 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import ContactForm from '../components/ContactForm.astro';
+import Footer from '../components/Footer.astro';
+---
+<Layout title="Contact | Aquashore Marine">
+  <Header />
+  <section class="pt-40 pb-24 bg-[#F4F7FB] min-h-screen">
+    <div class="max-w-7xl mx-auto px-6">
+      
+      <div class="text-center mb-16">
+        <span class="text-[#004E89] font-extrabold text-sm tracking-widest uppercase block mb-2">Get in Touch</span>
+        <h1 class="text-5xl font-extrabold text-[#00043A] font-[Montserrat] mb-4">Contact Dispatch</h1>
+        <p class="text-[#002962] text-lg font-medium">Available 24/7 for rapid deployment across all major Nigerian ports.</p>
+      </div>
+
+      <div class="grid lg:grid-cols-2 gap-8 items-start">
+        
+        <div class="space-y-6">
+          <!-- DARK CARD (Yellow Hover) -->
+          <div class="bg-[#001452] p-8 rounded-2xl shadow-lg border border-[#002962] relative group transition-all hover:border-[#FCDD00]">
+            
+  <div class="absolute top-0 left-0 w-6 h-6 border-t-2 border-l-2 border-transparent group-hover:border-[#FCDD00] transition-colors duration-300 rounded-tl-sm pointer-events-none"></div>
+  <div class="absolute top-0 right-0 w-6 h-6 border-t-2 border-r-2 border-transparent group-hover:border-[#FCDD00] transition-colors duration-300 rounded-tr-sm pointer-events-none"></div>
+  <div class="absolute bottom-0 left-0 w-6 h-6 border-b-2 border-l-2 border-transparent group-hover:border-[#FCDD00] transition-colors duration-300 rounded-bl-sm pointer-events-none"></div>
+  <div class="absolute bottom-0 right-0 w-6 h-6 border-b-2 border-r-2 border-transparent group-hover:border-[#FCDD00] transition-colors duration-300 rounded-br-sm pointer-events-none"></div>
+
+            <h3 class="text-[#FCDD00] font-bold text-sm uppercase tracking-widest mb-3">Emergency Dispatch</h3>
+            <p class="text-white font-bold text-2xl font-[Montserrat] group-hover:text-[#FCDD00] transition-colors">+234 802 688 2913</p>
+            <p class="text-white font-bold text-2xl font-[Montserrat] group-hover:text-[#FCDD00] transition-colors">+234 806 272 0090</p>
+          </div>
+          
+          <!-- LIGHT CARD (Red Hover) -->
+          <div class="bg-[#EBF2FA] p-8 rounded-2xl shadow-sm border border-[#D0E4F5] relative group transition-all hover:border-[#FF002B]">
+            
+  <div class="absolute top-0 left-0 w-6 h-6 border-t-2 border-l-2 border-transparent group-hover:border-[#FF002B] transition-colors duration-300 rounded-tl-sm pointer-events-none"></div>
+  <div class="absolute top-0 right-0 w-6 h-6 border-t-2 border-r-2 border-transparent group-hover:border-[#FF002B] transition-colors duration-300 rounded-tr-sm pointer-events-none"></div>
+  <div class="absolute bottom-0 left-0 w-6 h-6 border-b-2 border-l-2 border-transparent group-hover:border-[#FF002B] transition-colors duration-300 rounded-bl-sm pointer-events-none"></div>
+  <div class="absolute bottom-0 right-0 w-6 h-6 border-b-2 border-r-2 border-transparent group-hover:border-[#FF002B] transition-colors duration-300 rounded-br-sm pointer-events-none"></div>
+
+            <h3 class="text-[#FF002B] font-bold text-sm uppercase tracking-widest mb-3">Email RFQ</h3>
+            <p class="text-[#00043A] font-medium text-lg group-hover:text-[#FF002B] transition-colors mb-1">aquashoremarine01@gmail.com</p>
+            <p class="text-[#00043A] font-medium text-lg group-hover:text-[#FF002B] transition-colors">aquashoremarineserv@yahoo.com</p>
+          </div>
+
+          <!-- LIGHT CARD (Red Hover) -->
+          <div class="bg-[#EBF2FA] p-8 rounded-2xl shadow-sm border border-[#D0E4F5] relative group transition-all hover:border-[#FF002B]">
+            
+  <div class="absolute top-0 left-0 w-6 h-6 border-t-2 border-l-2 border-transparent group-hover:border-[#FF002B] transition-colors duration-300 rounded-tl-sm pointer-events-none"></div>
+  <div class="absolute top-0 right-0 w-6 h-6 border-t-2 border-r-2 border-transparent group-hover:border-[#FF002B] transition-colors duration-300 rounded-tr-sm pointer-events-none"></div>
+  <div class="absolute bottom-0 left-0 w-6 h-6 border-b-2 border-l-2 border-transparent group-hover:border-[#FF002B] transition-colors duration-300 rounded-bl-sm pointer-events-none"></div>
+  <div class="absolute bottom-0 right-0 w-6 h-6 border-b-2 border-r-2 border-transparent group-hover:border-[#FF002B] transition-colors duration-300 rounded-br-sm pointer-events-none"></div>
+
+            <h3 class="text-[#004E89] font-bold text-sm uppercase tracking-widest mb-3">Main Station</h3>
+            <p class="text-[#00043A] font-bold text-xl font-[Montserrat] group-hover:text-[#FF002B] transition-colors">Lagos, Nigeria</p>
+            <p class="text-[#002962] font-medium mt-2">Branch Operations: Warri · Port Harcourt · Calabar</p>
+          </div>
+        </div>
+
+        <div>
+          <ContactForm />
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <Footer />
+</Layout>

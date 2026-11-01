@@ -1,0 +1,20 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import ContactForm from '../components/ContactForm.astro';
+import Footer from '../components/Footer.astro';
+---
+<Layout title="Book a Service | Aquashore Marine">
+  <Header />
+  <section class="pt-40 pb-24 bg-[#F4F7FB] min-h-screen">
+    <div class="max-w-3xl mx-auto px-6">
+      <div class="text-center mb-10">
+        <span class="text-[#004E89] font-extrabold text-sm tracking-widest uppercase block mb-2">Request a Quote</span>
+        <h1 class="text-4xl md:text-5xl font-extrabold text-[#00043A] font-[Montserrat] mb-4">Book a Service</h1>
+        <p class="text-[#002962]">Fill the form below. Our team responds within 24 hours.</p>
+      </div>
+      <ContactForm />
+    </div>
+  </section>
+  <Footer />
+</Layout>
